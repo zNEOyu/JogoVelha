@@ -1,0 +1,42 @@
+.stage{
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(177, 204, 193);
+    border: 2px solid rgb(36, 0, 136);
+    display: inline-block;
+}
+.o{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.x{
+    position: relative;
+}
+.x:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+button{
+    background-color: aqua;
+    border-radius: 3px;
+    height: 40px;
+    align-content: center;
+}
